@@ -1,12 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HAKKI ÜLKÜ CV</title>
+    <link href="tailwind.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/jpg" href="favicon.ico" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
-    
+
+<body class="bg-gray-800 font-sans">
+    <!-- header img - name\ntitle - linksOFcontact -->
+    <div class="flex p-6 justify-center md:justify-around  items-center mx-auto">
+
+        <img src="ppp.jpeg" class="rounded-full w-36 sm:w-48 md:w-1/5 shadow-xl">
+
+        <div id="title-container" class="ml-6 sm:ml-12 md:ml-24">
+            <h2 class="text-white text-xl sm:text-3xl md:text-5xl font-bold sm:mb-2 sm:mt-2">HAKKI ÜLKÜ</h2>
+            <h2 class="text-green-600 text-lg sm:text-xl md:text-4xl font-bold italic">Computer Engineer</h2>
+            <div class="p-1 mt-4">
+                <div class="text-green-500 italic mb-2 flex items-start"><i class="material-icons text-white">place</i>
+                    Konya, TÜRKİYE</div>
+                <div class="text-green-500 italic mb-2 flex items-start"><i class="material-icons text-white">mail</i>
+                    <a class="ml-1" href="mailto:hakki264ulku@gmail.com">hakki264ulku@gmail.com</a></div>
+                <div class="text-green-500 italic mb-2 flex items-start"><i style="font-size:24px"
+                        class="fa text-white">&#xf09b;</i>
+                    <a class="ml-1" href="https://github.com/hakki264ulku">hakki264ulku</a>
+                </div>
+                <div class="text-green-500 italic mb-2 flex items-start"><i class="material-icons text-white">phone</i>
+                    <p class="ml-1"> 0544 622 2518</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <hr class="solid">
+
+    <!-- EDUCATION -->
+    <div class="flex items-start p-4 sm:p-6">
+        <h2 class="text-yellow-500 sm:w-1/6 text-base font-bold text-lg sm:text-2xl">Education</h2>
+        <div class="border-t-2 w-screen ml-3">
+            <div class="pl-4 flex flex-col items-start">
+                <h3 class="text-white font-bold text-base sm:text-lg">Konya Food And Agriculture University</h3>
+                <ul class="list-disc text-xs sm:text-base text-gray-300 pl-5 mt-2">
+                    <li>CGPA: 3.66/4.00 | Highest grade in the department | sixth term | Konya Food and Agriculture
+                        University (100% scholarship)</li>
+                    <li>Interests: Web Based Applications, Headless CMSs, Backend Technologies</li>
+                    <li>Turkish (Native Language) | English (Fluent - B2 level Reading & Listening & Speaking & Writing)
+                    </li>
+                    <li>Taken Courses: Database Management Systems, Programming Languages, Artificial Intelligence,
+                        Mobile Programming, Object Oriented Programming with JAVA, Data Structures, Digital
+                        Design, Design and Analysis of Algorithms, C Programming, Python Programming, Calculus-I,
+                        Calculus-II, Differential Equations, Probability and Statistics, Linear Algebra, Discrete
+                        Mathematics,
+                        Fundamentals of Electronics, Technical Drawing</li>
+                    <li>Graduated from high school with 27251 gradation among two million students in LYS exam</li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Experiences -->
+    <div class="flex items-start p-4 sm:p-6">
+        <h2 class="text-yellow-500 sm:w-1/6 font-bold text-base sm:text-2xl">Experiences</h2>
+        <div class="border-t-2 w-screen ml-3">
+            <div class="pl-4 flex flex-col items-start">
+                <h3 class="text-white font-bold text-base sm:text-lg">Web Developer Intern</h3>
+                <ul class="list-disc text-xs sm:text-base text-gray-300 pl-5 mt-2">
+                    <li>Learnt The basics of technologies, such as ReactJS, NodeJS, MongoDB and Firebase which
+                        are used in web development and working under a senior developer as a junior developer</li>
+                    <li>Gained Abilitiy of search and learning the topics which are not known and ability of solving
+                        problems which may occur during the software development porcesses.</li>
+
+                </ul>
+            </div>
+
+            <div class="pl-4 flex flex-col items-start mt-3">
+                <h3 class="text-white font-bold text-base sm:text-lg">Team Leader of a team that participated in 2020
+                    Teknofest-Tübitak 5. International UAV Competition</h3>
+                <ul class="list-disc text-xs sm:text-base text-gray-300 pl-5 mt-2">
+                    <li>Learned Managing and directing a team in such a way that the team will be able to complete
+                        the mission at the given time, and developing a software with Python on Raspbery pi</li>
+                    <li>Gained Sense of responsibility, team management, persuading and motivating people to complete
+                        the missions, being a team leader of a long term project and experience of completing
+                        such a long term project and familarity for UAV basics</li>
+
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Projects -->
+
+    <div class="flex items-start p-4 sm:p-6">
+        <h2 class="text-yellow-500 font-bold text-base sm:text-2xl sm:w-1/6">Projects</h2>
+        <div class="border-t-2 w-screen ml-3">
+
+            <div class="pl-4 flex flex-col items-start">
+                <h3 class="text-white font-bold text-base sm:text-lg">E-Commerce Application</h3>
+                <ul class="list-disc text-xs sm:text-base text-gray-300 pl-5 mt-2">
+                    <li>ReactJS, ExpressJS, NodeJS, TailwindCSS, MSSQL and Firebase Authentication are used</li>
+                    <li>In the application, basic SQL logics, like query, stored procedure, view exc. are experienced
+                        and
+                        DataBase created via using MSSQL is connected to the UI, that is created by using ReactJS,
+                        with the help of Restfull server developed with ExpressJS</li>
+                    <li>In the application, there are two sides as admin side and server side. In the admin side, new
+                        categories can be addded and deleted. Likewise, products can be added, deleted and updated.
+                        In the customer side of the application, customers can see the all products by listing them
+                        according to the categories. Customers can sign up/sign in and They can order the products
+                        that they want to buy to their addresses which they have supplied during signing up.</li>
+
+                </ul>
+            </div>
+
+            <div class="pl-4 flex flex-col items-start">
+                <h3 class="text-white font-bold text-base sm:text-lg">RPG Game</h3>
+                <ul class="list-disc text-xs sm:text-base text-gray-300 pl-5 mt-2">
+                    <li>Go Language and SDL2 library have been used</li>
+                    <li>During the application developmenti basic programming principles and game development approaches
+                        have been experienced and A* Search Algorithm is used to add AI abilitiy to the monsters
+                        in the game in order for them to be able to find and follow the player.</li>
+                    <li>In the game, there are one single main character and monsters. Main character can walk around
+                        the maze and open the closed doors, combat with monsters and kill them. The monsters that
+                        are killed leaves health pot behind their dead bodies. Player can walk through that pot and
+                        increase its health.</li>
+
+                </ul>
+            </div>
+
+            <div class="pl-4 flex flex-col items-start">
+                <h3 class="text-white font-bold text-base sm:text-lg">Social Media Application</h3>
+                <ul class="list-disc text-xs sm:text-base text-gray-300 pl-5 mt-2">
+                    <li>Reactjs, NodeJS, Firebase and Tailwindcss are used</li>
+                    <li>During the development of the application, basic authentication principles are experienced,
+                        such as sign in or sign up.</li>
+                    <li>Users of the app can login, sign up, share a post, like another user’s post and cooment on
+                        anothers’ posts and also can see other users’ comments and likes as notifications. Users can
+                        also add profile photos to their profiles.</li>
+
+                </ul>
+            </div>
+
+            <div class="pl-4 flex flex-col items-start">
+                <h3 class="text-white font-bold text-base sm:text-lg">Algorithm Projects</h3>
+                <ul class="list-disc text-xs sm:text-base text-gray-300 pl-5 mt-2">
+                    <li>For finding the shortest path and strongly connected components on graphs Bellman Ford -
+                        Dijkstra - Kosoraju algorithms</li>
+                    <li>For coin change problem, Greedy and Dynamic Programming approaches</li>
+                    <li>For data compression, Adaptive and Static Huffman Coding Alogrithms and their simulations</li>
+                    <li>Hashing algorithm and its simulation for the sake of faster indexing and data retrieval in
+                        databases</li>
+
+                </ul>
+            </div>
+
+            <div class="pl-4 flex flex-col items-start">
+                <h3 class="text-white font-bold text-base sm:text-lg">For 2020 Tübitak 5. International UAV Competition,
+                    Rotary Wing UAV</h3>
+                <ul class="list-disc text-xs sm:text-base text-gray-300 pl-5 mt-2">
+                    <li>Python, Dronekit Library, Raspberry Pi 3, Pixhawk and other basic drone staffs are used</li>
+                    <li>Because I am assigned in the Software development of the project, I developed the software
+                        for the UAV to be able to complete the missions autonomously by using the Python language
+                        and Dronekit library.</li>
+                    <li>I was the team leader of a team of 5 students for this project</li>
+
+                </ul>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+
+
 </body>
+
 </html>
